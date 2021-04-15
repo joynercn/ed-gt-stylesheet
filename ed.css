@@ -5,9 +5,7 @@ body {
 hr.gt-style { 
     border: 5px solid #EAAA00;
 }
-div:before {
-    content: "<hr class='gt-style'>"
-}
-div:after {
-    content: "<hr class='gt-style'>"
+div.content-wrapper{
+    border-top: 5px solid #EAAA00;
+    border-bottom: 5px solid #EAAA00;
 }
