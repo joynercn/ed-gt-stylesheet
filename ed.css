@@ -6,8 +6,8 @@ hr.gt-style {
     border: 5px solid #EAAA00;
 }
 div:before {
-    content: <hr style='border: 5px solid#EAAA00;'>
+    content: "<hr class='gt-style'>"
 }
 div:after {
-    content: <hr style='border: 5px solid#EAAA00;'>
+    content: "<hr class='gt-style'>"
 }
